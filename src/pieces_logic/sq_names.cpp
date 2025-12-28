@@ -1,4 +1,4 @@
-#include "headers.h"
+#include "sq_names.h"
 std::vector<std::vector<std::string>> get_square_names(){
     std::vector<std::vector<std::string>> squarenames;
 
