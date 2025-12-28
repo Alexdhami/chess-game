@@ -1,5 +1,6 @@
 #include "initial_pieces.h"
 
+// this function returns a hashmap containing the initial square position and piece in that squre
 
 std::unordered_map<std::string, std::string> get_initial_chesspieces(){
     std::unordered_map<std::string,std::string> initialPos{
