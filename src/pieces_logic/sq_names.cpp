@@ -1,5 +1,4 @@
-#include <iostream>
-#include "squares.h"
+#include "headers.h"
 std::vector<std::vector<std::string>> get_square_names(){
     std::vector<std::vector<std::string>> squarenames;
 
