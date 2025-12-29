@@ -2,8 +2,8 @@
 
 // this function returns a hashmap containing the initial square position and piece in that squre
 
-std::unordered_map<std::string, std::string> get_initial_chesspieces(){
-    std::unordered_map<std::string,std::string> initialPos{
+dict get_initial_chesspieces(){
+    dict initialPos{
         // White Other Pieces
 
         {"a1","w_rook_1"},
