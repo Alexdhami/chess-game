@@ -2,5 +2,8 @@
 #define CHANGE_POS
 #include "headers.h"
 
-void move_piece(std::unordered_map<std::string, std::string> &curr_pieces_pos,const std::string &old_pos, const std::string &new_pos);
+typedef std::unordered_map<std::string, std::string> dict ;
+typedef std::string str;
+
+void move_piece(dict &curr_pieces_pos,const str &old_pos, const str &new_pos);
 #endif
