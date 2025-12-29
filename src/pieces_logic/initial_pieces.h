@@ -2,7 +2,9 @@
 #define INITIAL_PIECES
 #include "headers.h"
 
-std::unordered_map<std::string, std::string> get_initial_chesspieces();
+typedef std::unordered_map<std::string, std::string> dict;
+
+dict get_initial_chesspieces();
 
 
 #endif
